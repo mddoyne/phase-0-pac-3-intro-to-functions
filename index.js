@@ -1,5 +1,5 @@
 // Follow along with the examples here
-function doNothing()
+/*function doNothing()
 {
 
 }
@@ -32,18 +32,26 @@ function doSomething(thing)
 {
   console.log(thing);
 }
-
 doSomething("anything");
+*/
 
 function sayHelloTo(firstName)
 {
   console.log(`Hello, ${firstName}!`);
 }
 
+
 sayHelloTo("Guadalupe"); // "Hello, Guadalupe!"
 sayHelloTo("Jane"); // "Hello, Jane!"
 sayHelloTo("R2-D2"); // "Hello, R2-D2!"
 sayHelloTo(1);
+
+function say(greeting, firstName)
+{
+  console.log(`${greeting}, ${firstName}!`);
+}
+say("Welcome", "Mark");
+
 
 function say(greeting, firstName)
 {
